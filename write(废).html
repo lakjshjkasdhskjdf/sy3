@@ -1,0 +1,133 @@
+<html>
+<head>
+    <title>问卷调查</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+      .mainDiv{
+        width:640px;
+        height:1030px;
+      }
+      .mainDivTitle{
+        display:flex;
+        width:640px;
+        height:32px;
+        color:lightcoral;
+        font-weight: bold;
+        text-shadow: 1px 1px #000;
+        
+      }
+
+      .cc{
+        text-align: center;
+      }
+      
+      .titleLine{
+        border-top: 3px solid hsl(51, 90%, 49%);
+        height: 0;
+        margin: 16px 0;
+        width: 160px;
+        text-shadow: 1px 1px #000;
+      }
+      .titleLine2{
+        border-top: 5px solid #323bbd;
+         height: 0;
+        margin: 15px 0;
+        width: 160px;
+      }
+
+      .titleCon{
+        width:640px;
+        font-size: 30px;
+        line-height: 42px;
+        text-align:center;
+      }
+      .p{
+        font-size:20px;
+        font-weight: bold;
+        font-weight: 700;
+        color:rgb(97, 83, 189);
+        text-align:center;
+        line-height: 24px;
+        text-shadow: 1px 1px #000;
+      }
+      .title,.titletext{
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        font-size:25px;
+        color:rgb(226, 94, 94);
+        padding: 10px 0;
+        line-height: 18px;
+        font-family: "华文琥珀";
+      }
+     
+      .submit{
+        color:#4a196b;
+        background-color: #00aff1;
+        line-height: 40px;
+        height: 40px;
+        width:160px;
+        margin-top:15px;
+        justify-content: center;
+        font-size: 25px;
+        font-family: "幼圆";
+        font-weight: 700;
+      }
+
+      
+      
+      .a{
+          width: 200px;
+          height: 45px;
+          font-size: 22px;
+          line-height: 45px;
+          border: 2px solid #262427;
+      }
+
+      .d{
+          width: 500px;
+          height: 45px;
+          font-size: 22px;
+          line-height: 45px;
+          border: 2px solid #262427;
+      }
+
+      body{
+            background-image: url("img/write.gif");
+            background-repeat: no-repeat;
+            background-color: #65c4e7;
+            width: 640px;
+            height: 1030px;
+        }
+
+      
+      
+    </style>
+  </head>
+  <body style="padding: 0px; margin: 0px;">
+  <form name="frm" method="get" action="a.html">
+      <div class="mainDiv">
+        <div class="mainDivTitle">
+          <div class="titleLine"></div>
+          <div class="titleLine2"></div>
+          <div class="titleCon"><b>问卷调查</b></div>
+          <div class="titleLine2"></div>
+          <div class="titleLine"></div>
+        </div>
+        <p class="p">濮院古镇 古色古香 与您一起 共度美好</p>
+        
+        
+        <div class="title">您的姓名:</div>
+            <input type="text" class="a">
+        <div class="title">您的电话:</div>
+             <input type="text" class="a">
+        <div class="title">您对濮院古镇移动端的想法:</div>
+            <input type="text" class="d">
+        <div class="cc">
+        <input type="submit" value="提交" class="submit">
+        <input type="submit" value="返回" class="submit">
+        </div>
+      </div>
+
+  </form>
+
+</body>
+</html>
